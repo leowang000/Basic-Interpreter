@@ -11,11 +11,12 @@
 #include "program.hpp"
 
 
-
 Program::Program() = default;
 
 Program::~Program() {
-  clear();
+  for (auto &stmt: stmts) {
+    delete stmt.second;
+  }
 }
 
 void Program::clear() {

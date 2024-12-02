@@ -22,7 +22,7 @@ void processLine(std::string, Program &, EvalState &);
 /* Main program */
 
 int main() {
-  freopen("../Test/test/test.in", "r", stdin);
+  //freopen("../Test/test/test.in", "r", stdin);
   EvalState state;
   Program program;
   //cout << "Stub implementation of BASIC" << endl;
