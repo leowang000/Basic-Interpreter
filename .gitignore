@@ -5,4 +5,5 @@ score
 .idea/
 .vscode/
 cmake-build-debug/
+Test/test/
 

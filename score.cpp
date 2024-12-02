@@ -182,7 +182,7 @@ int main(int argc, char **argv) {
         /**************************************************************
          if you modify the structure of the files, you should modify the file paths here.
          **************************************************************/
-        system("g++ -o testcode Basic/Basic.cpp Basic/evalstate.cpp Basic/exp.cpp Basic/parser.cpp Basic/program.cpp Basic/statement.cpp Basic/Utils/error.cpp Basic/Utils/error.hpp Basic/Utils/tokenScanner.cpp Basic/Utils/tokenScanner.hpp Basic/Utils/strlib.cpp");
+        system("g++ -std=c++17 -o testcode Basic/Basic.cpp Basic/evalstate.cpp Basic/exp.cpp Basic/parser.cpp Basic/program.cpp Basic/statement.cpp Basic/Utils/error.cpp Basic/Utils/tokenScanner.cpp Basic/Utils/strlib.cpp");
         system("chmod a+rwx Basic-Demo-64bit");
         if (traceFile.size()) runTest(traceFile);
         else {

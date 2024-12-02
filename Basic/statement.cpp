@@ -98,4 +98,3 @@ void ifStmt::execute(EvalState &state, Program &program) {
   }
   program.goToNextLine();
 }
-
